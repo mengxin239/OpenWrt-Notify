@@ -8,7 +8,7 @@
 
 # 如何部署
 
-两个端都不能直接Ctrl+CV(但是如果你的OpenWrt网段也是192.168.0.1/24的话可以直接用我的apk，我会放到release)
+两个端都不能直接Ctrl+CV(但是如果你的OpenWrt也是192.168.0.0/24的话可以直接用我的apk，我会放到release)
 
 ## 服务端
 
@@ -40,7 +40,7 @@ self.enable_telegram_notify = False
 
 ## 客户端
 
-### 网段为192.168.0.1/24（即第三位为0的），并且你的OpenWrt地址为192.168.0.1，可以直接用我编译出的Apk(在release),其他网段或者OpenWrt地址不是0.1的就继续看
+### 网段为192.168.0.0/24（即第三位为0的），并且你的OpenWrt地址为192.168.0.1，可以直接用我编译出的Apk(在release),其他网段或者OpenWrt地址不是0.1的就继续看
 
 克隆仓库，打开client（直接用AndroidStudio打开路径就行）
 
