@@ -54,7 +54,7 @@ private val serverAddr = "ws://192.168.0.1:8080/ws"
 
 ## OpenWrt推送
 
-打开[微信推送](http://192.168.0.1/cgi-bin/luci/admin/services/wechatpush)（这里超链接针对192.168.0.1写的，其他自己改下地址
+打开[微信推送](http://192.168.0.1/cgi-bin/luci/admin/services/wechatpush)（这里链接针对192.168.0.1写的，其他自己改下地址
 
 推送模式：自定义推送
 
